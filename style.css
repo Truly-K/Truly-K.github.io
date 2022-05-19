@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: #4B4848;
+    background-image: url(DeveloperWoman.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-area {
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+.nav-area li {
+    display: inline-block;
+}
+.nav-area li a {
+    color: #e0d9d9;
+    text-shadow: 0.5px 0.5px 3px #4B4848;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.nav-area li a:hover {
+    background: #4B4848;
+    color: #fff;
+}
+.nav-links {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.nav-links li {
+    display: inline-block;
+}
+.nav-links img{
+    width: 65px;
+    padding: 5px 20px;
+}
+.nav-links img:hover {
+    background: #333;
+    color: #fff;
+}
+.logo img {
+    width: 300px;
+    align-content: center;
+    padding-bottom: 2%;
+}
+.welcome-text {
+    position: absolute;
+    margin: 10% 20%;
+    text-align: center;
+}
+.welcome-text h1 {
+    text-align: center;
+    color: #e0d9d9;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.welcome-text p {
+    text-align: center;
+    color: #e0d9d9;
+    font-size: 18px;
+    padding-bottom: 5%;
+}
+.welcome-text a {
+    background: #e0d9d9;
+    box-shadow: 5px 5px 10px #4B4848;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 30px;
+    display: inline-block;
+    color: #4B4848;
+}
+.welcome-text a:hover {
+    background: #4B4848;
+    color: #fff;
+}
+
+.card {
+    display: flex;
+    background: #fff;
+    color: #4B4848;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    min-height: 550px;
+    margin: 75px 20px;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.cardText *{
+    margin: 0.5rem;
+}
+.projectDescription {
+    font-weight: 400;
+    opacity: 0.7;
+}
+.projectTitle {
+    color: #4B4848;
+}
